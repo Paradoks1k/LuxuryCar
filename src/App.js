@@ -1,4 +1,5 @@
 import "./App.css";
+import { ChooseCar } from "./components/chose-car";
 import { Footer } from "./components/footer";
 import { Headerr } from "./components/header";
 import { MainSection } from "./components/main-section";
@@ -10,6 +11,7 @@ function App() {
       <Wraper>
         <Headerr />
         <MainSection />
+        <ChooseCar />
         <Footer />
       </Wraper>
     </div>

@@ -19,6 +19,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .btn {
   width: 344px;
   height: 69px;
@@ -38,7 +44,10 @@ code {
 .btn:hover {
   background-color: #ffffff;
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+
+.btn.white-button {
+  background-color: #ffffff;
+}
+.btn.white-button:hover {
+  background-color: #f8ff23;
 }
