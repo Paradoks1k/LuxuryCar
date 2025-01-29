@@ -4,12 +4,12 @@ import logoCar from "../../images/1.png";
 
 export const ChooseCar = () => {
   return (
-    <div className="choose-car bg-black   ">
+    <div className="choose-car bg-black w-[100vw] h-auto   ">
       <div className="container max-w-7xl my-0 mx-auto relative bg-black w-[100vw]">
         <h2 className="cars-title text-6xl font-normal ">
           Выберите автомобиль
         </h2>
-        <div className="cars-content flex pt-14">
+        <div className="cars-content flex pt-14" id="cars-content">
           <aside className="cars-filter mr-20">
             <ul className="flex flex-col gap-y-4 list-none">
               <li className="active">Все марки</li>
@@ -67,7 +67,7 @@ export const ChooseCar = () => {
                       </div>
                     </li>
                   </ul>
-                  <a class="btn white-button w-full" href="#">
+                  <a class="btn white-button w-full" href="#order">
                     Забронировать
                   </a>
                 </div>

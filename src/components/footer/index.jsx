@@ -6,8 +6,8 @@ import orderCar from "../../images/order-car.png";
 export const Footer = () => {
   return (
     <div className="order-footer">
-      <div className="order pt-40 pb-32">
-        <div className="container relative">
+      <div className="order pt-40 pb-32" id="order">
+        <div className="container max-w-5xl relative">
           <img
             className="order-img absolute -top-6 left-[-530px] "
             src={orderCar}
@@ -33,7 +33,7 @@ export const Footer = () => {
         </div>
       </div>
       <footer className="footer ">
-        <div className="container flex justify-between items-center">
+        <div className="container max-w-5xl flex justify-between items-center">
           <div className="logo">
             <img className="logo-img " src={logoIcon} alt="logo" />
           </div>

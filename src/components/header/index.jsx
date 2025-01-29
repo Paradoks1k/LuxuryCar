@@ -12,12 +12,12 @@ export const Headerr = () => {
         <nav className="menu ">
           <ul className="menu-list">
             <li className="menu-item">
-              <a className="menu-link " href="#">
+              <a className="menu-link " href="#cars-content">
                 НАШ автопаркaa
               </a>
             </li>
             <li className="menu-item">
-              <a className="menu-link" href="#">
+              <a className="menu-link" href="#order">
                 Забронировать
               </a>
             </li>

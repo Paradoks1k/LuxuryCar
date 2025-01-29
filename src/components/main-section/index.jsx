@@ -14,7 +14,9 @@ export const MainSection = () => {
             От эксклюзивных спорткаров до гоночных шедевров — выбирайте мечту,
             садитесь за руль и ощутите мощь премиального авто на полную!
           </p>
-          <button className="btn  ">Посмотреть автомобили</button>
+          <a className="btn" href="#cars-content">
+            Посмотреть автомобили
+          </a>
         </div>
         <img
           className="main-image absolute top-[70px] right-[-576px] -z-10"
