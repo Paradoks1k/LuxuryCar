@@ -549,10 +549,6 @@ video {
   display: none;
 }
 
-.container {
-  max-width: 100%;
-}
-
 @media (min-width: 640px) {
   .container {
     max-width: 100%;

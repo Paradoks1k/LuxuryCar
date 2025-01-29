@@ -30,8 +30,8 @@ export const ChooseCar = () => {
     };
   });
   return (
-    <div className="choose-car bg-black w-[100vw]   ">
-      <div className="container max-w-7xl my-0 pr-10 relative pt-10 pb-10">
+    <div className="choose-car bg-black w-[100vw] pr-[200px]  ">
+      <div className="container max-w-5xl m-0 pr-10 relative  pb-10">
         <h2 className="cars-title text-6xl font-normal ">
           Выберите автомобиль
         </h2>
@@ -49,7 +49,7 @@ export const ChooseCar = () => {
               <li>Ford</li>
             </ul>
           </aside>
-          <div className="cars-items flex flex-col gap-y-7">
+          <div className="cars-items flex flex-col gap-y-7 pr-20">
             <article className="car bg-almost-black p-5 flex">
               <img className="car-img max-w-[560px]" src={logoCar} alt="car" />
               <div class="car-details ml-6 flex flex-col">

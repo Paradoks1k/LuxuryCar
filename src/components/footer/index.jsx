@@ -4,6 +4,10 @@ import logoIcon from "../../images/logo.png";
 import orderCar from "../../images/order-car.png";
 
 export const Footer = () => {
+  const carField = document.getElementById("car");
+  const nameField = document.getElementById("name");
+  const phoneField = document.getElementById("phone");
+
   return (
     <div className="order-footer">
       <div className="order pt-40 pb-32" id="order">
@@ -22,10 +26,10 @@ export const Footer = () => {
               деталей и подтверждения бронирования
             </p>
             <div className="order-form max-w-[344px]">
-              <input type="text" placeholder="Автомобиль" />
-              <input type="text" placeholder="Ваше имя" />
-              <input type="text" placeholder="Ваш телефон" />
-              <button className="btn" type="button">
+              <input type="text" placeholder="Автомобиль" id="car" />
+              <input type="text" placeholder="Ваше имя" id="name" />
+              <input type="text" placeholder="Ваш телефон" id="phone" />
+              <button className="btn" type="button" id="order-action">
                 Забронировать
               </button>
             </div>
