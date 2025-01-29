@@ -30,13 +30,13 @@ export const ChooseCar = () => {
     };
   });
   return (
-    <div className="choose-car bg-black w-[100vw] h-auto   ">
-      <div className="container max-w-7xl my-0 mx-auto relative bg-black w-[100vw] pb-10">
+    <div className="choose-car bg-black w-[100vw]   ">
+      <div className="container max-w-7xl my-0 pr-10 relative pt-10 pb-10">
         <h2 className="cars-title text-6xl font-normal ">
           Выберите автомобиль
         </h2>
         <div className="cars-content flex pt-14" id="cars-content">
-          <aside className="cars-filter mr-20">
+          <aside className="cars-filter ">
             <ul className="flex flex-col gap-y-4 list-none">
               <li className="active">Все марки</li>
               <li>Lamborghini</li>
@@ -51,7 +51,7 @@ export const ChooseCar = () => {
           </aside>
           <div className="cars-items flex flex-col gap-y-7">
             <article className="car bg-almost-black p-5 flex">
-              <img className="car-img max-w-xl" src={logoCar} alt="car" />
+              <img className="car-img max-w-[560px]" src={logoCar} alt="car" />
               <div class="car-details ml-6 flex flex-col">
                 <h4 className="text-3xl font-bold leading-tight mb-5">
                   BMW M4 Competition
